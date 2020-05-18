@@ -32,6 +32,7 @@ let HistorySummary = ({team, events, eventResults}) => {
 			<div style={style}>
 				<div>
 					<div>.</div>
+					{/* TODO: Dynamically show and/or generate event categories/rows */}
 					<div className='label event'>Event 1</div>
 					<div className='label event'>Event 2</div>
 					<div className='label event'>Event 3 or DCMP</div>
@@ -52,10 +53,7 @@ let HistorySummary = ({team, events, eventResults}) => {
 				<span>F</span><span className='legend f'/>
 				<span>W</span><span className='legend won'/>
 				<div> *No selection data available for this event </div>
-
 			</div>
-
-
 		</div>
 	);
 }
